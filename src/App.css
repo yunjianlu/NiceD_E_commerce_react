@@ -1,0 +1,94 @@
+.footer {
+  width: 100%;
+  background: rgba(45, 106, 79, 0.92);
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0 1rem 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin-top: 3rem;
+  z-index: 10;
+}
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0.95;
+}
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.modern-box {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  transition: box-shadow 0.2s;
+}
+.modern-box:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16);
+}
+
+.modern-title {
+  color: #2d6a4f;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.modern-content {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
