@@ -20,7 +20,10 @@ This project is a modern, full-featured e-commerce web application for NiceD Ora
 
 For development details, see the code and comments. Contributions welcome!
 
-Thanks
+Thank you.
+
+---
+
 Authors:
 
 - Yunjian L
